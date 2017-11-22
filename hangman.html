@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <meta charset="UTF-8">
+    <title>JavaScript Hangman game</title>
+  	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css"  href=".\assets\css\hangman.css">
+
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
+
+<body>
+
+        <!--Webpage Header-->
+	<header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h1 id="header">HANGMAN!</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+        <!--Main Content-->
+<div class="container-fluid" id="spacer"></div>
+
+  
+
+
+<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+      
+        <img id="skierpic" alt="skier" 
+        src="https://c2.sfdcstatic.com/content/dam/blogs/us/November2015/heli-ski.jpg"/>
+
+        <h3>Hint: Ski Resorts in the United States</h3>
+
+        <div id="buttons"></div>
+			
+			</div>
+			
+			<div class="col-sm-6">
+        
+            <!--word for user to guess-->
+        <h3>Current Word:</h3>
+          <div id="word"></div>
+        
+        <br><br><br>
+
+          <!--Remaining lives/guesses user has-->
+        <h5>Number of Guesses Remaining: <span id="mylives"></span></h5>
+      
+    
+    <!--the letters the user has previously guessed-->
+      <!--these letteres are not in the selected word-->
+        <h5>Letters Already Guessed:</h5>
+          <div id="badGuess"></div>
+
+        <br><br><br><br>
+          <button id="play">Play</button>
+            
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" id="spacerTwo"></div>
+  
+<div class="container">
+    <div id="buttons"></div>
+</div>
+
+  
+     
+    
+
+    
+   
+    
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src=".\assets\javascript\hangman.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,102 @@
+
+body {
+	background-color: rgb(116, 151, 182);
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: 'Russo One', sans-serif;;
+	font-size: 60px;
+	line-height: 15px;
+	letter-spacing: 11px;
+	text-align: center;
+}
+
+#spacer {
+  height: 75px;
+}
+
+
+
+#header {
+	border:5px solid #ffffff;
+	padding: 30px;
+	margin-top: 60px;
+  margin-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#skierpic {
+  height: 295px;
+  width: 100%;
+}
+
+#alphabet {
+  margin: 15px auto;
+  padding: 0;
+  max-width: 900px;
+}
+
+#alphabet:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#alphabet li {
+  float: left;
+  margin: 0 10px 10px 0;
+  list-style: none;
+  width: 35px;
+  height: 30px;
+  padding-top: 10px;
+  background: #fff;
+  color: #006699;
+  font-size: 18px;
+  cursor: pointer;
+  border: solid 1px #fff;
+}
+#alphabet li:hover {
+  background: #c1d72e;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+canvas {
+  color: #fff;
+  border: #fff dashed 2px;
+  padding: 15px;
+}
+
+button {
+  color: #006699;
+  border: solid 1px #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 2em;
+  padding: 18px 10px;
+  width: 200px;
+  margin: 10px;
+  outline: none;
+}
+button:hover {
+
+  background-color: #f0f0f0;
+  border: solid 1px #fff;
+  color: #fff;
+}
+
+
+@media (max-width: 767px) {
+  #alphabet {
+    padding: 0 0 0 15px;
+  }
+}
+@media (max-width: 480px) {
+  #alphabet {
+    padding: 0 0 0 25px;
+  }
+}
