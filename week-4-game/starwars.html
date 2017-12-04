@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Star Wars RPG Game</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+     <!--Bootstrap-->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" 
+     integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"/>
+     
+    
+     <!--CSS Style Sheet-->
+    <link rel="stylesheet" type="text/css"
+    href=".\assets\css\starwars.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+   <!--Jquery-->
+   <script src="https://code.jquery.com/jquery-3.2.1.js"
+   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+   crossorigin="anonymous"></script>
+   <!--JavaScript-->
+    <script type="text/javascript"
+   src=".\assets\javascript\starwars.js"></script>
+     
+</head>
+
+<body>
+        <!--Website Header/Title-->
+        <div class="container-fluid">
+                <header>
+                    <div id="webpage-title">STAR WARS <span id="title-italic">RPG</span></div>
+                </header>
+        </div>
+
+        <div id="game-section" class="container-fluid">
+            <div id="game-section" class="container-fluid">
+                <div class="row">
+                        <div class="col-9">
+                        <h1 class = "section-title">Your Character</h1>
+                                <div id = "char_list">
+
+                <div id = "obi" class = "character-card" value = "170">
+                    <h2>Obi-Wan Kenobi</h2>
+                        <img src="https://e3.365dm.com/17/08/1096x616/5c1e46f9f3a8427ed791d882798e35e0d09ba438e1f6ca815811eef154412b9a_4076420.jpg?20170818082806">
+                            <p id = "obi_hp">170</p>
+                </div>
+                <div id = "luke" class = "character-card" value = 140>
+                     <h2>Luke Skywalker</h2>
+                        <img class="character-img"src="https://qph.ec.quoracdn.net/main-qimg-c194de2c358556593f1dcabd23f152dc"/>
+                            <p id = "luke_hp">140</p>
+                </div>
+            
+                <div id = "sidi" class = "character-card" value = 180>
+                    <h2>Darth Sidious</h2>
+                        <img src="https://pm1.narvii.com/6078/cee43636e1588f9cec6101ff30960d3960384742_hq.jpg"/>
+                            <p id = "sidi_hp">180</p>
+                </div>
+            
+                <div id = "maul" class = "character-card" value = 150>
+                    <h2>Darth Maul</h2>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwr5vRyn9bPKFsIRKsqPooufpJ9eKfHsqBYmwwH5rYGAj2z6mmOw"/>
+                            <p id = "maul_hp">150</p>
+                </div>
+            </div>
+        </div>
+            <div id="battle_comments"></div>
+    </div>
+    </div>
+</div>
+
+        <!-- Label for Enemy List -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-7">
+		            <h1 class = "game_head">Enemies Available To Attack</h1>
+                        <div id = "enemy_list"></div>
+                </div>
+
+                <div class="col-5">
+                        <h1 class = "game_head">Defender</h1>
+                        <button id="attack" type="button" class="btn btn-danger" 
+                        id="attack-btn">attack</button>
+                        <div id = "defend_list"></div>
+                        <button id="attack" type="button" class="btn btn-danger" 
+                        id="attack-btn">attack</button>
+                </div>
+            </div>
+        </div>
+            
+        <div class="container-fluid" id="spacer"></div>
+    
+    
+
+            <div id = "battle_comments" class = "game_head"></div>
+        
+     <!-- Link in jQuery -->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        
+<script src=".\assets\javascript\starwars.js"></script>
+</body>
+</html>
