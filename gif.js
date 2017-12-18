@@ -9,7 +9,7 @@ $(document).ready(function(){
         //----------------------------------------------------------
         function displayGifs() {
         
-            var apiKey = "dc6zaTOxFJmzC";
+            var apiKey = "rSORGnOQvmRYJKX0dKiMNx4UBu3judNK";
             var giphyURL = "https://api.giphy.com/v1/gifs/search?q=" + searchWord + "&limit=10&rating=pg&api_key=" + apiKey;
             
     
