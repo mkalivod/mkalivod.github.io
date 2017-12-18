@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Giphy-GifTastic</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+         <!--BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- OPTIONAL THEME-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!--JAVASCRIPT-BOOTSTRAP -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!--==========JQUERY==========-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+        <!--CSS STYLESHEET-->
+    <link rel="stylesheet" type="text/css" href=".\assets\gif.css">
+    
+
+</head>
+
+<body id="wrapper">
+
+	<div class="container-fluid">
+        <div class="row">
+            <div class="col-12" id="pageHeader">
+                <h1 id="pgTitle">GIFTASTIC TV Shows</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+			<div class="col-md-8">
+				
+                <div id="pageButtons"></div>
+                
+			</div>
+
+		<div class="col-md-4">
+            <form id="gif-form">
+                <label for="gif-input">Add a TV Show</label>
+                    <input type="text" class="form-control" id="gif-input"><br>
+                        <button type="submit" class="btn btn-default" 
+                            id="addGif" value="Submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+	<div id="gifs"></div>
+</div>
+
+	<!--jQuery-->
+		<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+		<!--javascript file-->
+		<script type="text/javascript" src=".\assets\gif.js"></script>
+</body>
+	
+</html>

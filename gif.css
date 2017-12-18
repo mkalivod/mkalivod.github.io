@@ -1,0 +1,91 @@
+body {
+    background-color: black;
+    color:white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/*heading*/
+
+#pageHeader {
+    margin: 19px;
+    border: 9px solid dodgerblue;
+}
+h1 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+    font-size: 65px;
+    letter-spacing: 4px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
+
+/*text input for new button*/
+#gif-form {
+    float:left;
+	padding-top: 10px;
+}
+
+#gif-input {
+	padding-top: 10px;
+	width: 300px;
+}
+
+label {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+#addGif {
+
+}
+/*sports buttons at the top*/
+.TVshowBTNs {
+    margin: 6px;  
+    padding:10px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1.95px;
+	background-color:orange;
+    color: white;
+}
+
+#pageButtons {
+    text-align: center;
+    margin-bottom: 25px;
+    display: inline-block;
+
+}
+
+.TVshowBTNs:hover {
+	border-radius: 8px;
+	background-color: dodgerblue;
+	color: white;
+}
+
+
+
+img {
+	height: 200px;
+	width: 285px;
+	padding: 5px;
+}
+
+
+
+.gifWrapper {
+    display: inline-block;
+    width: auto;
+}
+
+.gifWrapper p {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*
+/*the ratings paragraphs*/
+/*div p {
+	padding-bottom: 15px;
+	position: absolute;
+}
+*/
